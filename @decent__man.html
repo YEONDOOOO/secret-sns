@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <style>
-    body { font-family: -apple-system, sans-serif; margin: 0; background-color: #fff; line-height: 1.6; color: #0f1419; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; background-color: #fff; line-height: 1.6; color: #0f1419; }
     .sns-content { max-width: 600px; margin: 0 auto; border-left: 1px solid #eff3f4; border-right: 1px solid #eff3f4; min-height: 100vh; }
     
-    /* 프로필 섹션 (타니 스타일) */
+    /* 프로필 섹션 */
     .sns-prof { padding: 25px 20px; border-bottom: 1px solid #eff3f4; }
     .header-banner { height: 150px; background-color: #cfd9de; position: relative; margin: -25px -20px 20px -20px; }
     .prof-img-wrapper { position: absolute; bottom: -45px; left: 15px; }
@@ -27,12 +27,10 @@
     .post-left img { width: 55px; height: 55px; border-radius: 50%; object-fit: cover; }
     .post-right { flex: 1; }
     
-    /* 게시글 닉네임: 22px로 설정 */
     .post-header-name { font-size: 22px; font-weight: 800; color: #0f1419; }
     .post-header-meta { font-size: 16px; color: #536471; margin-left: 4px; font-weight: normal; }
     
-    /* 본문 텍스트: 타니와 동일하게 20px */
-    .urasns-post-text { font-size: 20px !important; line-height: 1.6; white-space: pre-wrap; margin: 10px 0; color: #0f1419; }
+    .urasns-post-text { font-size: 20px !important; line-height: 1.4; white-space: pre-wrap; margin: 10px 0; color: #0f1419; }
     .urasus-post-img img { width: 100%; border-radius: 18px; border: 1px solid #cfd9de; margin-top: 15px; }
     
     .sns-post-symbol-items { display: flex; justify-content: space-between; max-width: 450px; margin-top: 15px; color: #536471; font-size: 18px; }
@@ -43,7 +41,7 @@
     <div class="sns-content">
         <div class="sns-prof">
             <div class="header-banner">
-                <div class="prof-img-wrapper"><img src="image/uraicon_decent__man.png"></div>
+                <div class="prof-img-wrapper"><img src="image/uraicon_decent__man.png" alt="프로필"></div>
             </div>
             <div class="sns-prof-name">돈이 많음 <i class="fas fa-lock" style="font-size: 17px;"></i></div>
             <div class="gray-text">@decent__man</div>
@@ -58,7 +56,12 @@
             <div class="post-left"><img src="image/uraicon_decent__man.png"></div>
             <div class="post-right">
                 <div><b class="post-header-name">돈이 많음</b> <i class="fas fa-lock" style="font-size: 13px;"></i> <span class="post-header-meta">@decent__man · 10월 18일</span></div>
-                <p class="urasns-post-text">아이디어를 만드는 방법\n옛날 책이라고는 생각되지 않을 정도로 내용이 진했어!\n본편 50페이지 정도 밖에 안되는데!\n\n어이쿠! 일에 활용할 수 있도록 노력할게!\n<span class="text-blue">#오늘의_쌓아올리기</span></p>
+                <p class="urasns-post-text">아이디어를 만드는 방법
+옛날 책이라고는 생각되지 않을 정도로 내용이 진했어!
+본편 50페이지 정도 밖에 안되는데!
+
+어이쿠! 일에 활용할 수 있도록 노력할게!
+<span class="text-blue">#오늘의_쌓아올리기</span></p>
                 <div class="sns-post-symbol-items"><i class="far fa-comment"></i> <i class="fas fa-retweet"></i> <i class="far fa-heart"></i> <i class="far fa-bookmark"></i></div>
             </div>
         </div>
@@ -67,7 +70,10 @@
             <div class="post-left"><img src="image/uraicon_decent__man.png"></div>
             <div class="post-right">
                 <div><b class="post-header-name">돈이 많음</b> <i class="fas fa-lock" style="font-size: 13px;"></i> <span class="post-header-meta">@decent__man · 10월 10일</span></div>
-                <p class="urasns-post-text">오랜만에 친정에 갔다\n어머니도 아버지도 오래오래 건강하셨으면 좋겠다~\n\n집에 나가고 나서 부모님의 고마움을 깨닫는 일이 많아졌다!</p>
+                <p class="urasns-post-text">오랜만에 친정에 갔다
+어머니도 아버지도 오래오래 건강하셨으면 좋겠다~
+
+집에 나가고 나서 부모님의 고마움을 깨닫는 일이 많아졌다!</p>
                 <div class="sns-post-symbol-items"><i class="far fa-comment"></i> <i class="fas fa-retweet"></i> <i class="far fa-heart"></i> <i class="far fa-bookmark"></i></div>
             </div>
         </div>
@@ -76,7 +82,10 @@
             <div class="post-left"><img src="image/uraicon_decent__man.png"></div>
             <div class="post-right">
                 <div><b class="post-header-name">돈이 많음</b> <i class="fas fa-lock" style="font-size: 13px;"></i> <span class="post-header-meta">@decent__man · 10월 2일</span></div>
-                <p class="urasns-post-text">요즘은 머니포워드를 보는 것이 일과\n점점 저축액이 늘어나는 것이 즐거워서 견딜 수가 없네!\n\n이제 저금과 절약이 취미라고 해도 과언이 아니야</p>
+                <p class="urasns-post-text">요즘은 머니포워드를 보는 것이 일과
+점점 저축액이 늘어나는 것이 즐거워서 견딜 수가 없네!
+
+이제 저금과 절약이 취미라고 해도 과언이 아니야</p>
                 <div class="sns-post-symbol-items"><i class="far fa-comment"></i> <i class="fas fa-retweet"></i> <i class="far fa-heart"></i> <i class="far fa-bookmark"></i></div>
             </div>
         </div>
@@ -85,7 +94,8 @@
             <div class="post-left"><img src="image/uraicon_decent__man.png"></div>
             <div class="post-right">
                 <div><b class="post-header-name">돈이 많음</b> <i class="fas fa-lock" style="font-size: 13px;"></i> <span class="post-header-meta">@decent__man · 9월 15일</span></div>
-                <p class="urasns-post-text">후배한테 꽃차 받았어!\n이것은 신나는 일이야</p>
+                <p class="urasns-post-text">후배한테 꽃차 받았어!
+이것은 신나는 일이야</p>
                 <div class="urasus-post-img"><img src="image/decent__man-img1.png"></div>
                 <div class="sns-post-symbol-items"><i class="far fa-comment"></i> <i class="fas fa-retweet"></i> <i class="far fa-heart"></i> <i class="far fa-bookmark"></i></div>
             </div>
@@ -95,7 +105,8 @@
             <div class="post-left"><img src="image/uraicon_decent__man.png"></div>
             <div class="post-right">
                 <div><b class="post-header-name">돈이 많음</b> <i class="fas fa-lock" style="font-size: 13px;"></i> <span class="post-header-meta">@decent__man · 9월 9일</span></div>
-                <p class="urasns-post-text">아싸!\n무려 다음 달부터 승급! 축재가 순조로워진다!</p>
+                <p class="urasns-post-text">아싸!
+무려 다음 달부터 승급! 축재가 순조로워진다!</p>
                 <div class="sns-post-symbol-items"><i class="far fa-comment"></i> <i class="fas fa-retweet"></i> <i class="far fa-heart"></i> <i class="far fa-bookmark"></i></div>
             </div>
         </div>
@@ -104,7 +115,8 @@
             <div class="post-left"><img src="image/uraicon_decent__man.png"></div>
             <div class="post-right">
                 <div><b class="post-header-name">돈이 많음</b> <i class="fas fa-lock" style="font-size: 13px;"></i> <span class="post-header-meta">@decent__man · 9월 3일</span></div>
-                <p class="urasns-post-text">왠지 이상한 사람들로부터 팔로우당한다(웃음)\n재미있다</p>
+                <p class="urasns-post-text">왠지 이상한 사람들로부터 팔로우당한다(웃음)
+재미있다</p>
                 <div class="sns-post-symbol-items"><i class="far fa-comment"></i> <i class="fas fa-retweet"></i> <i class="far fa-heart"></i> <i class="far fa-bookmark"></i></div>
             </div>
         </div>
@@ -113,7 +125,8 @@
             <div class="post-left"><img src="image/uraicon_decent__man.png"></div>
             <div class="post-right">
                 <div><b class="post-header-name">돈이 많음</b> <i class="fas fa-lock" style="font-size: 13px;"></i> <span class="post-header-meta">@decent__man · 9월 2일</span></div>
-                <p class="urasns-post-text">뭐야 이 태그 웃음\n<span class="text-blue">#이상한_사람과_연결되고_싶다</span></p>
+                <p class="urasns-post-text">뭐야 이 태그 웃음
+<span class="text-blue">#이상한_사람과_연결되고_싶다</span></p>
                 <div class="sns-post-symbol-items"><i class="far fa-comment"></i> <i class="fas fa-retweet"></i> <i class="far fa-heart"></i> <i class="far fa-bookmark"></i></div>
             </div>
         </div>
